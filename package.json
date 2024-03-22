@@ -1,0 +1,61 @@
+{
+  "name": "dignissimossed",
+  "description": "Monorepo for WalletConnect",
+  "keywords": [
+    "quasi",
+    "pariatur",
+    "blanditiis",
+    "id",
+    "nam",
+    "qui",
+    "voluptatem",
+    "crypto",
+    "cryptocurrency",
+    "reiciendis"
+  ],
+  "author": "MyraWehner",
+  "homepage": "https://github.com/CliftonMurazik/dignissimossed.git",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "packages/types",
+    "packages/utils",
+    "packages/core",
+    "packages/sign-client",
+    "packages/react-native-compat",
+    "packages/web3wallet",
+    "providers/universal-provider",
+    "providers/signer-connection",
+    "providers/ethereum-provider"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CliftonMurazik/dignissimossed.git"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "22.0.2",
+    "@rollup/plugin-node-resolve": "13.3.0",
+    "@types/node": "18.7.3",
+    "@types/sinon": "10.0.13",
+    "@typescript-eslint/eslint-plugin": "5.33.0",
+    "@typescript-eslint/parser": "5.33.0",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-standard": "5.0.0",
+    "eslint-plugin-n": "15.7.0",
+    "esbuild": "0.17.19",
+    "lerna": "5.5.2",
+    "prettier": "2.7.1",
+    "rollup": "2.78.0",
+    "rollup-plugin-esbuild": "4.9.3",
+    "sinon": "14.0.0",
+    "typescript": "4.7.4",
+    "vitest": "^0.22.1"
+  },
+  "version": "1.0.0"
+}
